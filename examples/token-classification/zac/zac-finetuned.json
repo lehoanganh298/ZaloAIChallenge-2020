@@ -1,0 +1,17 @@
+{
+    "data_dir": "./zac",
+    "labels": "./zac/labels.txt",
+    "model_name_or_path": "/content/drive/My Drive/zac2020/zac-model-2/checkpoint-5525",
+    "output_dir": "zac-model-1",
+    "max_seq_length": 256,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 4,
+    "per_device_eval_batch_size": 4,
+    "eval_accumulation_steps":4,
+    "save_steps": 425,
+    "seed": 1,
+    "do_train": false,
+    "do_eval": false,
+    "do_predict": true,
+    "fp16": false
+}
