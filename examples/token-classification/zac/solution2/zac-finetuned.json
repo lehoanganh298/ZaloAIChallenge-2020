@@ -1,0 +1,20 @@
+{
+    "data_dir": "./zac/solution2/ner_dataset",
+    "labels": "./zac/solution2/ner_dataset/labels.txt",
+    "model_name_or_path": "./zac/zac-model-3/",
+    "output_dir": "zac-model-1",
+    "max_seq_length": 256,
+    "num_train_epochs": 5,
+    "per_device_train_batch_size": 8,
+    "save_steps": 250,
+    "save_total_limit":3,
+    "load_best_model_at_end":true,
+    "metric_for_best_model":"eval_f1",
+    "evaluation_strategy":"steps",
+    "eval_steps":250,
+    "seed": 1,
+    "do_train": false,
+    "do_eval": false,
+    "do_predict": true,
+    "fp16": false
+}
