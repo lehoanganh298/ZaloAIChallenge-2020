@@ -10,7 +10,7 @@ with codecs.open('train/train_split.jsonl', 'w', "utf-8") as f:
     for item in X_train:
         json.dump(item, f,ensure_ascii=False)
         f.write('\n')
-with codecs.open('train/val_split.jsonl', 'w', "utf-8") as f:
+with codecs.open('train/test_split.jsonl', 'w', "utf-8") as f:
     for item in X_test:
         json.dump(item, f,ensure_ascii=False)
         f.write('\n')
